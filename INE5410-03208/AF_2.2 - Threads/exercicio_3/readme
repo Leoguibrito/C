@@ -1,0 +1,10 @@
+Em outro caso de programador desaparecido, você deve paralelizar um programa que calcula o produto escalar de dois vetores:
+
+./program 1 a b 
+Produto escalar: -9
+
+O primeiro argumento ("1" é o número de threads a serem usadas para computação. Assim como no exercício 2, a sintaxe gen:N pode ser usada para testar sua implementação com vetores aleatórios grandes. Lembre que:
+
+O produto escalar é o somatório dos produtos entre os elementos pareados dos vetores, ou seja, sum += a[i] * b[i], para todo elemento i dos vetores a e b.
+Os arquivos a e b, com vetores pequenos, estão incluídos no esqueleto fornecido.
+Evite usar variáveis globais sempre que possível.
