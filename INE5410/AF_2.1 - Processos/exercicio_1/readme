@@ -1,0 +1,7 @@
+Você deve escrever um programa em C em que o processo pai crie 2 processos filhos (fork()). 
+
+Para cada processo filho criado, o processo pai deve imprimir "Processo pai criou XXX", onde XXX é o PID do processo criado.
+
+Cada processo filho deve apenas imprimir "Processo filho XXX criado", onde XXX é o PID do processo corrente (use a função getpid() para isso).
+
+O processo pai (e apenas ele) deve imprimir "Processo pai finalizado!", somente após os filhos terminarem (use a função wait() para aguardar que os filhos terminem de executar).
