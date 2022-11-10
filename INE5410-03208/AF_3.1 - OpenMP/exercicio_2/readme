@@ -1,5 +1,0 @@
-Exercício 2
-
-O programa fornecido inicializa duas matrizes quadradas com o tamanho fornecido como argumento de linha de comando e as multiplica. Esse programa foi paralelizado com OpenMP por um estagiário. O cliente ligou enfurecido para o suporte dizendo que o programa não está tão rápido quanto deveria, e que ele produz resultados incorretos. Arrume o(s) erro(s) cometido(s) pelo estagiário de modo que o cliente fique satisfeito. Além disso, pense se a configuração das diretivas usadas pelo estagiário pode ser modificada de forma a melhorar o desempenho da solução.
-
-Uma vez resolvido o problema, explique para o estagiário o que ele fez de errado (texto fornecido direto no Moodle, durante a submissão). Seja didático, para que o estagiário compreenda o problema e não volte a cometer o mesmo erro...

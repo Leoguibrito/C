@@ -1,5 +1,0 @@
-Exercício 1
-
-Um engenheiro escreveu o programa presente no arquivo main.c. Só o engenheiro sabe o que esse código faz, mas você pode observar que cada iteração do for é independente de todas as demais. Utilize OpenMP para paralelizar esse programa.
-
-O programa lê o número de threads e o tamanho do vetor a ser calculado como argumentos de linha de comando. A implementação em OpenMP deve usar o número de threads indicado na variável n_threads. O programa também inclui uma medida do tempo gasto realizando o cálculo. Compute o speedup do seu programa executando-o com diferentes números de threads.

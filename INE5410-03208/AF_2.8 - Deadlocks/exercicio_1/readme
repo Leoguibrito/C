@@ -1,7 +1,0 @@
-Exercício 1
-O programa dado cria duas threads worker1 e worker2 que fazem uma operação misteriosa 20 vezes. Cada uma dessas threads soma o resultado em uma variável global e coloca um valor em uma lista, também global. Além da atualização dessas variáveis globais, as próprias operações misteriosas das threads não podem ser executadas concorrentemente. Ou seja, se worker1 está realizando sua operação (operacao_worker1()), a thread worker2 não pode executar operacao_worker2().
-
-Ninguém sabe o que o programa faz, pois quando é executado, ele quase sempre trava. Verifique se está ocorrendo um impasse (deadlock) e, se for o caso, realize as alterações necessárias para que os impasses não ocorram.
-
-O arquivo helper.c não deve ser alterado!
-Não remova nem renomeie o mutex ou semáforo.
