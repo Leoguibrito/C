@@ -1,0 +1,3 @@
+Exercício 3
+
+O programa fornecido calcula o desvio padrão de uma sequência de números gerados aleatoriamente. O tamanho da sequência é lido como argumento da linha de comando. Paralelize a computação realizada pela função standard_deviation() usando OpenMP.

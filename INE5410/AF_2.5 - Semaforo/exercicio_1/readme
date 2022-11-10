@@ -1,0 +1,19 @@
+O programa dado no esqueleto cria duas threads, uma para imprimir letras A e outra para imprimir letras B em um arquivo chamado results.txt. Ao ser invocado o comando abaixo, no qual 5 é o número de letras A e letras B:
+
+./program 5
+
+Seria gerado algo assim no arquivo result.txt:
+
+AAAAABBBBB
+
+Utilize semáforos para que as threads executem em paralelo, mas garantindo que em qualquer posição i da string, a diferença entre o número de A's e de B's seja menor ou igual a 1. Veja alguns exemplos de saídas válidas ou inválidas com 3 ocorrências de cada letra:
+
+Válidas: 
+    ABABAB
+    ABBAAB
+    BAABAB
+    
+Inválidas:
+    AABBAB (posição i=1: #A=2, #B=0)
+    ABBBAB (posição i=3: #A=1, #B=3)
+    BBBAAA (posição i=1: #A=0, #B=2)
