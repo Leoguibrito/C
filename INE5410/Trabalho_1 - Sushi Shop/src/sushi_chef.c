@@ -99,8 +99,9 @@ void sushi_chef_place_food(sushi_chef_t* self, enum menu_item dish) {       // R
    
     pthread_mutex_lock(&conveyor_belt->_food_slot_mutex[self -> _seat_position]);
     if (!globals_get_store_open()) {
-            return;
-        } 
+        pthread_mutex_unlock(&conveyor_belt->_food_slot_mutex[self -> _seat_position]);
+        return;
+    } 
     int* produced = globals_get_produced_food();
     fprintf(stdout, GREEN "[INFO]" NO_COLOR " Sushi Chef %d wants to place %u at conveyor->_foot_slot[%d]!\n", self->_id, dish, self->_seat_position);
     print_virtual_time(globals_get_virtual_clock());
